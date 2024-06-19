@@ -1,12 +1,75 @@
-.body {
+body {
+  margin: 0px;
+  box-sizing: border-box;
+
+  background-color: grey;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+  flex-grow: 1;
 }
 
-.header {
-  border: solid red;
-  background-color: grey;
+.header,
+.container-one {
+  background-color: rgb(34, 40, 56);
+  display: flex;
+  padding: 30px 125px;
+  justify-content: space-between;
+  margin: 0px;
+  color: white
+}
+
+.logo,
+.header-links {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 15px;
+  font-size: 15px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container-one {
+  padding: 75px 125px;
+  gap: 50px;
+  align-items: center;
+}
+
+.text-box {
+  width: 300px;
+  flex-grow: 2;
+}
+
+.container-one button {
+  margin-top: 10px;
+  flex-grow: 0;
+  border: solid rgb(60, 95, 220);
+  background-color: rgb(60, 95, 220);
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  padding: 5px;
+}
+
+.container-one img {
+  width: 350px;
+  flex-grow: 1;
+}
+
+.description {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.text-box .title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 0px;
 }
