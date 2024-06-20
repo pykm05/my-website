@@ -116,6 +116,27 @@ a {
 }
 
 .container-three {
-  padding: 100px;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
   background-color: rgb(223, 222, 222);
+}
+
+.quote-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.quote {
+  display: flex;
+  font-size: 25px;
+  font-style: italic;
+  max-width: 800px;
+  font-weight: 300;
+}
+
+.speaker {
+  padding-left: 600px;
 }
