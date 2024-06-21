@@ -140,3 +140,57 @@ a {
 .speaker {
   padding-left: 600px;
 }
+
+.container-four {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up {
+  margin: 90px;
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-width: 700px;
+  padding: 40px;
+  background-color: rgb(71, 121, 238);
+  border-radius: 10px;
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+.sign-up-container {
+  font-weight: 700;
+}
+
+.container-four button {
+  display: flex;
+  margin: 0 40px;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: rgb(71, 121, 238);
+}
+
+.footer {
+  background-color: rgb(34, 40, 56);
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.footer .credits {
+  font-weight: 300;
+}
